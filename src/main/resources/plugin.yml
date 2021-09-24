@@ -1,8 +1,93 @@
-name: Damage Perms
+name: DamagePerms
 version: '${project.version}'
 main: lmaxplay.damageperms.Damageperms
 api-version: 1.17
 prefix: Starting Damage Perms...
 load: STARTUP
 authors: [ Lmaxplay ]
-description: Allows you to control damage using permissions!!!
+description: Allows you to control damage using permissions
+permissions:
+  damageperms.damage.all:
+    description: Any damage
+    default: true
+  damageperms.damage.contact:
+    description: Damage on contact of blocks like cacti
+    default: true
+  damageperms.damage.custom:
+    description: Custom damage
+    default: true
+  damageperms.damage.cramming:
+    description: Damage from entity cramming
+    default: true
+  damageperms.damage.explosion.block:
+    description: Damage from explosions originating from blocks (TNT, etc.)
+    default: true
+  damageperms.damage.explosion.entity:
+    description: Damage from explosions originating from entities (Creepers, etc.)
+    default: true
+  damageperms.damage.dragonbreath:
+    description: Damage from dragon's breath
+    default: true
+  damageperms.damage.drowning:
+    description: Drowning damage
+    default: true
+  damageperms.damage.attack:
+    description: Damage from direct attacks
+    default: true
+  damageperms.damage.attack.sweep:
+    description: Damage from the sweeping edge enchantment
+    default: true
+  damageperms.damage.fall:
+    description: Fall damage
+    default: true
+  damageperms.damage.fire:
+    description: Fire damage
+    default: true
+  damageperms.damage.fallingblock:
+    description: Damage from falling blocks like anvils
+    default: true
+  damageperms.damage.wall:
+    description: Damage from flying into a wall with an elytra
+    default: true
+  damageperms.damage.freeze:
+    description: Freezing damage
+    default: true
+  damageperms.damage.hotfloor:
+    description: Damage from magma blocks
+    default: true
+  damageperms.damage.lava:
+    description: Damage from lava
+    default: true
+  damageperms.damage.lightning:
+    description: Damage from lightning
+    default: true
+  damageperms.damage.magic:
+    description: Damage from magic
+    default: true
+  damageperms.damage.melting:
+    description: Damage from melting
+    default: true
+  damageperms.damage.poison:
+    description: Damage from poison
+    default: true
+  damageperms.damage.projectile:
+    description: Damage from projectiles (Arrows, etc.)
+    default: true
+  damageperms.damage.starvation:
+    description: Damage from starving
+    default: true
+  damageperms.damage.suffocation:
+    description: Damage from suffocating in a block
+    default: true
+  damageperms.damage.suicide:
+    description: Damage from suicide
+    default: true
+  damageperms.damage.thorns:
+    description: Damage from the thorns enchantment
+    default: true
+  damageperms.damage.void:
+    description: Damage from the void
+    default: true
+  damageperms.damage.wither:
+    description: Damage from withering
+    default: true
