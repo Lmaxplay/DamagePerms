@@ -1,0 +1,8 @@
+name: Damage Perms
+version: '${project.version}'
+main: lmaxplay.damageperms.Damageperms
+api-version: 1.17
+prefix: Starting Damage Perms...
+load: STARTUP
+authors: [ Lmaxplay ]
+description: Allows you to control damage using permissions!!!
